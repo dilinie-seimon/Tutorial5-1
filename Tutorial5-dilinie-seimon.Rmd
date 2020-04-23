@@ -1,0 +1,17 @@
+---
+title: "Tutorial5-dilinie-seimon"
+author: "dilinieseimon"
+date: "23/04/2020"
+output:
+  bookdown::html_document2
+keep_md: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+• Title: Learning to rebase
+• Author: Write your name
+• Date information
+• The file will render to html
