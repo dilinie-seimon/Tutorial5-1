@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 • Author: Write your name
 • Date information
 • The file will render to html
-<<<<<<< HEAD
 
 ```{r}
 # Libraries
@@ -30,6 +29,7 @@ geom_line() +
 facet_wrap(~id)
 
 ```
+
 ```{r}
 # Examining situation in USA
 covid_us %>% dplyr::filter(id %in%
@@ -41,5 +41,4 @@ c("USA, New York",
 ggplot(aes(x = date , y = confirmed, color = id)) +
 geom_line()
 ```
-=======
->>>>>>> 1007180... Updated tutorial5.rmd on tutorial5-exercise1-dilinie-seimon
+
